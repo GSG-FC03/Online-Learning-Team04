@@ -1,27 +1,99 @@
 *{
-    background-color:#665ffe;
-
+    padding: 0 px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #6360FF;
+    border-radius: 30px;
 }
+ 
+ .box{
+     margin-top: 100px;
+     align-items: center;
+     margin-left: 40px;
+     margin-right:20px;
+     z-index: -1;
+    /* width: 100%;*/
+
+ }
+ .title-page{
+     margin-left: 30px;
+ }
 .top-page{
-color:aliceblue;
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    color: aliceblue;
+
 width: 285px;
 height: 40px;
-left: 0px;
-top: 0px;
+left: 25px;
+top: 71px;
+
 }
-.title-page{
-    display: flex;
-    flex-direction:column;
-    align-items: center;  
+.contaner-content{
+   /* width:500px;
+    height: 500 px;
+   border: 2px solid aliceblue ;
+    background-color: aliceblue;
+      position: fixed;*/
+ 
+        padding: 5px 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    li {font-size:omgHuge;}
+li span {font-size:mehNormal;}
+    
+.contaner-content .content-1{
+    width: 550px;
+	height: 240px;
+	margin-bottom: 40px;
+	background: #fff;
+	display: flex;
+	padding: 10px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
 }
-.first-statment{
-padding-bottom: 10px;
+ontent-1:hover {
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
 }
-.Second-statment{
-padding-top: 5px;
+.inside-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
 }
+.inside-1 img {
+	width: 30px;
+	height: 30px;
+	transition-duration: .8s;
+	border-radius: 50%;
+}
+.inside-1 img:hover {
+	transform: scale(1.1);
+	border-radius: 0px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.inside-1 p1 {
+	width: 150px;
+	font-weight: bold;
+	color: #2E3D49;
+	text-align: center;
+}
+.inside-1 p2 {
+	width: 50px;
+	text-align: left;
+}
+.i fa-solid fa-star {
+	width: 150px;
+	font-weight: bold;
+	color: #2E3D49;
+	text-align: center;
+}
+.identity h6 {
+	width: 150px;
+	text-align: center;
+}
+
+
