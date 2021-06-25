@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ .intro{
+display: inline;
+margin-top: 35px;
+margin-left: 20px;
+padding: 10px;
+color: #F1F1FA;
+font-size: 20px;
+font-family:  sans-serif;
+
+ }
+.headofpage3{
+
+background-color: #6360ff;
+
+padding:  15px 10px;
+
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+
+
+}
+.divofheader{
+    width: 66%;
+ 
+ padding: 10px ;
+ margin-left: 35px;
+ margin-top: 10px;
+ background-color: darkorange;
+  
+}
+
+.vectorimg{
+
+width: 3%;
+}
+.section2{
+   background-color: aqua;
+}
+
+.article1{
+    background-color: #F1F1FA;
+    position:relative;
+width: 100%;
+
+left: 0px;
+top: 10px;
+text-align: justify;
+}
+.article1 p{
+    position: relative;
+    left: 35px;
+    padding: 5px;
+
+}
+.article2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+   margin-top: 10px;
+   background-color: deeppink;
+  
+}
+
+.div2art2{
+ 
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+position: relative;
+width: 66%;
+
+}
+.div3art2{
+    color: #91919F;
+    font-size: 14px;
+  
+   position: relative;
+   left: 2px;
+  top: 4px;
+
+}
+.div3art2 img{
+width: 3%;
+}
+.article3{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    
+}
+.div3art3{
+
+background-color: blueviolet;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+}
+.div3art3 p{
+margin-left: 10px;
+}
+
+.div4art3{
+
+    background-color: crimson;
+}
+.div1art3{
+    background-color: darkcyan;
+}
+
+
+.checkboximg{
+  
+    position: relative;
+left: 355px;
+bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
