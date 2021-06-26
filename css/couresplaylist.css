@@ -1,162 +1,139 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+/*  start of styling all element*/
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+} /*  end of styling all element*/
+
+/* start of styling p in the header*/
+.intro {
+  display: inline;
+  margin-top: 35px;
+  margin-left: 20px;
+  padding: 10px;
+  color: #f1f1fa;
+  font-size: 20px;
+} /* end of styling p in the header*/
+/*start of styling header*/
+.headofpage3 {
+  background-color: #6360ff;
+
+  padding: 15px 10px;
+} /*end of styling header*/
+/* start of styling div in header */
+.divofheader {
+  width: auto;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+} /* end of styling div in header */
+/*statrt of styling vectorimg in header*/
+.vectorimg {
+  width: 10px;
+} /*end  of styling vectorimg in header*/
+
+
+/*start of styyling of secion2*/
+.section2 {
+  border-radius: 2px;
 }
- .intro{
-display: inline;
-margin-top: 35px;
-margin-left: 20px;
-padding: 10px;
-color: #F1F1FA;
-font-size: 20px;
-font-family:  sans-serif;
+/*start of styling article1 in section2*/
+.article1 {
+  position: relative;
+  width: 100%;
 
- }
-.headofpage3{
-
-background-color: #6360ff;
-
-padding:  15px 10px;
-
-border-top-left-radius: 30px;
-border-top-right-radius: 30px;
-
-
+  left: 0px;
+  top: 5px;
+  text-align: justify;
 }
-.divofheader{
-    width: 66%;
- 
- padding: 10px ;
- margin-left: 35px;
- margin-top: 10px;
- background-color: darkorange;
-  
-}
-
-.vectorimg{
-
-width: 3%;
-}
-.section2{
-   background-color: aqua;
-}
-
-.article1{
-    background-color: #F1F1FA;
-    position:relative;
-width: 100%;
-
-left: 0px;
-top: 10px;
-text-align: justify;
-}
-.article1 p{
-    position: relative;
-    left: 35px;
-    padding: 5px;
-
-}
-.article2{
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
-   margin-top: 10px;
-   background-color: deeppink;
-  
+.article1 p {
+  position: relative;
+  left: 35px;
+  padding: 5px;
+  font-size: 15px;
+} /*end of styling article1 in section2*/
+/*start of styling article2,6 */
+.article2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  margin-top: 10px;
 }
 
-.div2art2{
- 
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-
-position: relative;
-width: 66%;
-
+.div2art2 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
 }
-.div3art2{
-    color: #91919F;
-    font-size: 14px;
-  
-   position: relative;
-   left: 2px;
+.div3art2 {
+  color: #91919f;
+  font-size: 14px;
+
+  position: relative;
+  left: 2px;
   top: 4px;
-
 }
-.div3art2 img{
-width: 3%;
+.div3art2 img {
+  width: 2%;
 }
-.article3{
+/*end of  styling aricle 2,6*/
 
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-   
-    
+/*statrt of article3,4,5,7,8*/
+.article3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  margin-top: 10px;
 }
-.div3art3{
-
-background-color: blueviolet;
-
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-
-}
-.div3art3 p{
-margin-left: 10px;
+.div1art3 {
+  /* background-color: deeppink; */
+  width: 100%;
 }
 
-.div4art3{
-
-    background-color: crimson;
-}
-.div1art3{
-    background-color: darkcyan;
-}
-
-
-.checkboximg{
-  
-    position: relative;
-left: 355px;
-bottom: 45px;
+.div1art3 input {
+  float: right;
+  position: relative;
+  bottom: 30px;
+  width: 18px;
+  height: 18px;
 }
 
 
 
+.div3art3 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
 
+.div4art3 {
+  color: #91919f;
+  font-size: 14px;
+  position: relative;
+  left: 2px;
+  top: 4px;
+}
 
+.checkboximg {
+  position: relative;
+  left: 355px;
+  bottom: 45px;
+}
+hr {
+  color: #91919f;
+  margin-top: 10px;
+} /*end of stlying article 3,4,5,7,8*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+input[type="checkbox"]:checked {
+    background-color: #5442b6;
+    color: rgb(124, 117, 117); }
+/*end of styling section2*/
