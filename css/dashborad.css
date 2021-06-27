@@ -79,12 +79,14 @@ i {
 i span {
   color: #91919f;
 }
-.content-1 p1 {
+.content-1 div {
   font-size: 12px;
   padding: 15px 5px;
   font-family: "DM Sans";
+  margin: 0;
+  box-sizing: border-box;
 }
-.content-1 p1 h3 {
+.content-1 div h3 {
   margin: 10px 0px;
   font-family: "DM Sans";
 }
