@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+/*  start of styling all element*/
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+} /*  end of styling all element*/
+
+/* start of styling p in the header*/
+.intro {
+  display: inline;
+  margin-top: 35px;
+  margin-left: 20px;
+  padding: 10px;
+  color: #f1f1fa;
+  font-size: 20px;
+} /* end of styling p in the header*/
+/*start of styling header*/
+.headofpage3 {
+  background-color: #6360ff;
+
+  padding: 15px 10px;
+} /*end of styling header*/
+/* start of styling div in header */
+.divofheader {
+  width: auto;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+} /* end of styling div in header */
+/*statrt of styling vectorimg in header*/
+.vectorimg {
+  width: 10px;
+} /*end  of styling vectorimg in header*/
+
+
+/*start of styyling of secion2*/
+.section2 {
+  border-radius: 2px;
+}
+/*start of styling article1 in section2*/
+.article1 {
+  position: relative;
+  width: 100%;
+
+  left: 0px;
+  top: 5px;
+  text-align: justify;
+}
+.article1 p {
+  position: relative;
+  
+  padding: 5px;
+  font-size: 15px;
+} /*end of styling article1 in section2*/
+/*start of styling article2,6 */
+.article2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.div2art2 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+.div3art2 {
+  color: #91919f;
+  font-size: 14px;
+
+  position: relative;
+  left: 2px;
+  top: 4px;
+}
+.div3art2 img {
+  width: 2%;
+}
+/*end of  styling aricle 2,6*/
+
+/*statrt of article3,4,5,7,8*/
+.article3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.div1art3 {
+  /* background-color: deeppink; */
+  width: 100%;
+}
+
+.div1art3 input {
+  float: right;
+  position: relative;
+  bottom: 30px;
+  width: 18px;
+  height: 18px;
+}
+
+
+
+.div3art3 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.div4art3 {
+  color: #91919f;
+  font-size: 14px;
+  position: relative;
+  left: 2px;
+  top: 4px;
+}
+
+.checkboximg {
+  position: relative;
+  left: 355px;
+  bottom: 45px;
+}
+hr {
+  color: #91919f;
+  margin-top: 10px;
+} /*end of stlying article 3,4,5,7,8*/
+
+input[type="checkbox"]:checked {
+    background-color: #5442b6;
+    color: rgb(124, 117, 117); }
+/*end of styling section2*/
