@@ -1,7 +1,9 @@
 
 # Team 4: Online Learning
 SINAU a flexible and easy to use e-learning environment
-
+## Link
+ - [figma](https://www.figma.com/file/FQ7tyN31t5xSH9oPCyC12T/Online-Learning?node-id=5%3A0)
+ - [Git Hub](https://gsg-fc03.github.io/Online-Learning-Team04/)
 # Our Team
 This is our first project as a team,
 ### The team:
@@ -24,3 +26,10 @@ There are 3 website interfaces
 Just by logging in, you can easily watch courses you want .
 
 ## Description of Journey Creation SINAU
+
+It started in 17/6/2021  
+First step for this journey is planning meet to set the important lines needed for each successful team . we got to know each other at first, put names for labels,  Divide the project to small tasks and make issues for tasks and assign each issue like that : 
+- README.md file issue assign for Mosab and Farah
+- Create file structure issue assignees for Salsabeel
+- Create authentication assignees  for Salsabeel
+- Create dashboard assignees for Mosab‏
