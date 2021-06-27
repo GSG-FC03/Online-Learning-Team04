@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6360ff;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 2rem;
+}
+header {
+  text-align: center;
+}
+/* the style for h1 in header */
+.title {
+  text-align: center;
+  color: white;
+  margin: 2px 50px 2px 50px;
+  left: 7.25rem;
+  top: 13.5rem;
+}
+/* The style for p in header */
+.under-title {
+  text-align: center;
+  color: white;
+  margin: 0px 30px 15px 20px;
+  padding: 5px 20px 20px 20px;
+  font-size: 16px;
+}
+/* the style of img in header */
+#logo1 {
+  position: relative;
+  margin: 70px 50px 0px 50px;
+  padding: 15px;
+  border-radius: 25px;
+}
+main {
+  background-color: #f1f1fa;
+  border-radius: 30px 30px 0px 0px;
+  height: 520px;
+  width: auto;
+}
+.sign-in {
+  display: flex;
+  flex-direction: column;
+}
+/* The style of email  and password inputs  */
+input {
+  padding: 15px 85px 15px 85px;
+  margin: 15px;
+  border-radius: 10px;
+  color: #fcfcff;
+  justify-content: center;
+  width: 90vw;
+  color: #91919f;
+  border: white 2px solid;
+  outline: none;
+  font-family: "DM Sans", sans-serif;
+}
+::placeholder {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+/*  The style of sigin ang  */
+button {
+  position: static;
+  padding: 15px 85px 15px 85px;
+  margin: 15px;
+  color: white;
+  border: #ff8181 2px solid;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  background: #ff8181;
+  width: 90vw;
+  border-radius: 10px;
+  font-size: 14px;
+}
+/* the icons */
+.fa-envelope:before {
+  content: "\f0e0";
+  position: absolute;
+  float: right;
+  left: 50px;
+  top: 323px;
+  color: #6360ff;
+}
+.fa-lock:before {
+  content: "\f023";
+  float: right;
+  position: absolute;
+  left: 51.5px;
+  top: 403px;
+  color: #6360ff;
+}
+/* the style of footer */
+footer {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  color: #91919f;
+  font-size: 12px;
+}
